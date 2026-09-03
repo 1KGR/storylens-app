@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(disown)",
+      "Bash(curl -sf http://localhost:5173/)",
+      "Bash(break)",
+      "Bash(npx --yes playwright install chromium --with-deps)",
+      "Bash(npm init *)",
+      "Bash(npm install *)",
+      "Bash(node verify.mjs)",
+      "Bash(node crop.mjs)"
+    ]
+  }
+}
